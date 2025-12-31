@@ -1,0 +1,5 @@
+{
+  "name": "Tounes Money Challenge",
+  "description": "An interactive savings tracker tailored for Tunisian currency, using smart batching to help users reach financial goals.",
+  "requestFramePermissions": []
+}

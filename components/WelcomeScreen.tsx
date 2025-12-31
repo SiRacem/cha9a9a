@@ -84,7 +84,7 @@ const WelcomeScreen: React.FC<Props> = ({ onCreate, onCancel, hasExistingGoals }
             type="text"
             value={name}
             onChange={(e) => setName(e.target.value)}
-            className="w-full text-xl p-4 bg-gray-50 border-2 border-gray-200 rounded-xl focus:bg-white focus:border-red-500 focus:ring-0 transition-colors text-left font-sans text-gray-900 placeholder-gray-400"
+            className="w-full text-xl p-4 bg-white border-2 border-gray-200 rounded-xl focus:border-red-500 focus:ring-4 focus:ring-red-500/10 transition-all text-left font-sans text-gray-900 placeholder-gray-400"
             placeholder="مثال: شراء سيارة، عطلة الصيف..."
           />
         </div>
@@ -99,7 +99,7 @@ const WelcomeScreen: React.FC<Props> = ({ onCreate, onCancel, hasExistingGoals }
             type="number"
             value={target}
             onChange={(e) => setTarget(Number(e.target.value))}
-            className="w-full text-xl p-4 bg-gray-50 border-2 border-gray-200 rounded-xl focus:bg-white focus:border-red-500 focus:ring-0 transition-colors text-left font-mono text-gray-900 placeholder-gray-400"
+            className="w-full text-xl p-4 bg-white border-2 border-gray-200 rounded-xl focus:border-red-500 focus:ring-4 focus:ring-red-500/10 transition-all text-left font-mono text-gray-900 placeholder-gray-400"
             placeholder="مثال: 1000"
           />
         </div>
@@ -114,7 +114,7 @@ const WelcomeScreen: React.FC<Props> = ({ onCreate, onCancel, hasExistingGoals }
             type="number"
             value={duration}
             onChange={(e) => setDuration(Number(e.target.value))}
-            className="w-full text-xl p-4 bg-gray-50 border-2 border-gray-200 rounded-xl focus:bg-white focus:border-red-500 focus:ring-0 transition-colors text-left font-mono text-gray-900 placeholder-gray-400"
+            className="w-full text-xl p-4 bg-white border-2 border-gray-200 rounded-xl focus:border-red-500 focus:ring-4 focus:ring-red-500/10 transition-all text-left font-mono text-gray-900 placeholder-gray-400"
             placeholder="مثال: 365"
           />
         </div>
